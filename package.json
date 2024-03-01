@@ -1,0 +1,18 @@
+{
+  "name": "api-com-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon server2.js"
+  },
+  "keywords": [],
+  "author": "Michael Anderson da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0",
+    "redis": "^4.6.13"
+  }
+}
